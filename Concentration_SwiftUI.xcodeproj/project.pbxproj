@@ -11,6 +11,7 @@
 		5C814D1A27FB0AFA0042076B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C814D1927FB0AFA0042076B /* ContentView.swift */; };
 		5C814D1C27FB0AFB0042076B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C814D1B27FB0AFB0042076B /* Assets.xcassets */; };
 		5C814D1F27FB0AFB0042076B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C814D1E27FB0AFB0042076B /* Preview Assets.xcassets */; };
+		5CC1453527FD670A008BE39C /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1453427FD670A008BE39C /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5C814D1927FB0AFA0042076B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C814D1B27FB0AFB0042076B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C814D1E27FB0AFB0042076B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CC1453427FD670A008BE39C /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5C814D1727FB0AFA0042076B /* Concentration_SwiftUIApp.swift */,
 				5C814D1927FB0AFA0042076B /* ContentView.swift */,
+				5CC1453427FD670A008BE39C /* MemoryGame.swift */,
 				5C814D1B27FB0AFB0042076B /* Assets.xcassets */,
 				5C814D1D27FB0AFB0042076B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC1453527FD670A008BE39C /* MemoryGame.swift in Sources */,
 				5C814D1A27FB0AFA0042076B /* ContentView.swift in Sources */,
 				5C814D1827FB0AFA0042076B /* Concentration_SwiftUIApp.swift in Sources */,
 			);
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
